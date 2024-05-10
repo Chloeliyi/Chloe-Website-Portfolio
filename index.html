@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css"/>
+        <title>Home</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Chloe's Logo ">
+            </a>
+        </header>
+        <nav class="navbar">
+            <a class ="flex-nav" href="index.html">Home</a>
+            <a class ="flex-nav" href="portfolio.html">Portfolio</a>
+            <a class ="flex-nav" href="about.html">About</a>
+        </nav>
+        <nav class="dropdown">
+            <button class="dropdown_btn">Menu
+            </button>
+            <div class="dropdown_content">
+                <a href ="index.html">Home</a>
+                <a href ="portfolio.html">Portfolio</a>
+                <a href ="about.html">About</a>
+            </div>
+        </nav>   
+        <section class="flex_container">
+            <a id ="" href="images/resume_photo.jpg" data-lightbox="gallery" data-title="Chloe Chan"><img id="profile_photo" src="images/resume_photo.jpg" alt="Chloe Chan" /></a>
+            <section class="flex_content">
+                <h1> About Me </h1>
+                <article class="description">
+                    <p>I am currently a third year Ngee Ann Polytechnic student studying the ICT coure of immersive media. My eventual goal is to work in the game development industry as a 3D Programmer.</p>
+                    <button class = "info_button"><a href="about.html">More</a></button>
+                </article>
+            </section>      
+        </section>
+        <section class="flex_container">
+            <section class="skillsflex_content">
+                <h1> Chloe's Skillset</h1>
+                <section class="skillset_content">
+                    <article class ="adobe_list">
+                        <ul>
+                            <li>Adobe Illustrator : Good</li>
+                            <li>Adobe Photoshop : Good</li>
+                        </ul>
+                    </article>
+                    <article class ="language_list">
+                        <ul>
+                            <li>HTML : Good</li>
+                            <li>CSS : Good</li>
+                            <li>C++ : Good</li>
+                            <li>Python : Good</li>
+                            <li>Javascript : Moderate</li>
+                            <li>XCode : Moderate</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <section class="flex_container">
+            <section class="portflex_content">
+                <h1> Chloe's Portfolio</h1>
+                <article class="portfolio">
+                    <section id = "portfolio_layout">
+                        <a  href="portfolio_one.html"><img id="index_portphoto" src="images/portfolio_one.png" alt="Fantasy Room"></a>
+                        <a  href="portfolio_five.html"><img id="index_portphoto" src="images/portfolio_five.png" alt="Mix&Match"></a>
+                        <a  href="portfolio_eight.html"><img id="index_portphoto" src="images/portfolio_eight.png" alt="Card Game"></a>
+                    </section>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <nav class="footer_navbar">
+                <a class ="footer-nav" href="index.html">Home</a>
+                <a class ="footer-nav" href="portfolio.html">Portfolio</a>
+                <a class ="footer-nav" href="about.html">About</a>
+            </nav> 
+        </footer>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    </body>
+</html>
