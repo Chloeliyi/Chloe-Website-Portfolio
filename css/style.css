@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #c7e8f3;
+}
+
+body h1, h2, h3, h4, p, li, label {
+  font-family: 'IBM Plex Serif';
+} 
+
+button {
+  font-family: 'IBM Plex Serif';
+  font-size: 18px;
+  width: 80px;
+  
+}
+
+#logo {
+    width: 500px;
+    padding: 10px;
+    margin-left: 32%;
+}
+
+#profile_photo {
+  width: 300px;
+  margin-right: 10px;
+  border: 5px solid #8e4162;;
+}
+
+.navbar {
+    display: flex;
+    background-color: #8e4162;
+    justify-content: center;
+    font-family: 'Arima Madurai', cursive;
+  }
+
+  .flex-nav {
+    color: #c7e8f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+  } 
+  
+  .dropdown {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropdown_btn {
+    font-size: 20px;
+    border: none;
+    background-color: #8e4162;
+    padding: 14px 16px;
+    font-family: 'Arima Madurai', cursive;
+    width: 100%;
+  }
+  .navbar a:hover, .dropdown:hover .dropdown_btn{
+    background-color: #c7e8f3;
+    color: #8e4162;
+  }
+
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    width: 467px;
+    z-index: 1;
+  }
+
+  .dropdown_content a {
+    font-family: 'Arima Madurai', cursive;
+    float: none;
+    color: #c7e8f3;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .dropdown_content a:hover {
+    background-color: #ADA7C9;
+  }
+
+  .dropdown:hover .dropdown_content {
+    display: block;
+  }
+
+  .verticalLine {
+    padding: 10px;
+  }
+
+
+  .info_button a {
+    text-decoration: none;
+    color: #8e4162;
+  }
+
+  .flex_container {
+    display: flex;
+    margin-top: 2%;
+    border-radius: 5px;
+  }
+
+  .flex_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .flex_content h1 {
+    font-size: 45px;
+  }
+
+  .skillsflex_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35%;
+  }
+
+  .skillsflex_content h1 {
+    font-size: 45px;
+    padding-left: 25px;
+  }
+
+
+  .portflex_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #index_portphoto {
+    height : 250px;
+    padding-left: 10px;
+  }
+
+  .portflex_content h1 {
+    font-size: 45px;
+    padding-left: 35%;
+  }
+
+  .skillset_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+
+  .aboutme_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%;
+  }
+
+  .contact_details {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .linkedin_button {
+    width : 100px;
+  }
+
+  .github_button {
+    width : 100px;
+  }
+
+  .linkedin_button a {
+    text-decoration: none;
+    color: #8e4162;
+  }
+
+  .github_button a {
+    text-decoration: none;
+    color: #8e4162;
+  }
+
+  .portfolio_heading {
+    text-align: center;
+  }
+
+  .portfolio_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .threed_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .gamedev_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .graphic_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio_morebt {
+    margin-top: 10px;
+    height: 30px;
+  }
+
+  .portfolio_morebt a {
+    text-decoration: none;
+  }
+  
+  #contentone_photo {
+    height: 300px;
+  }
+
+  #contenttwo_photo {
+    height: 200px;
+    width: 400px;
+  }
+
+  #contentthree_photo {
+    height: 250px;
+  }
+
+  #contentfour_photo {
+    height: 200px;
+    width: 400px;
+  }
+
+  #contentfive_photo {
+    height: 200px;
+  }
+
+  #contentsix_photo {
+    height: 300px;
+  }
+
+  #contentseven_photo {
+    height: 200px;
+    
+  }
+
+  #contenteight_photo {
+    height: 200px;
+    width: 600px;
+  }
+
+  #contentnine_photo {
+    height: 200px;
+  }
+
+  .content_one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content_two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio_photos {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  #hallwayone {
+    width: 450px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #hallwaytwo {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #hallwaythree {
+    width: 400px;
+    height: 250px;
+  }
+
+  #fantasyroomfront {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #fantasyroomback {
+    width: 400px;
+    height: 250px;
+  }
+
+  #crystal {
+    width: 400px;
+    height: 250px;
+  }
+
+  #texturedhallway {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  #texturedroom {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #texturedcrystal {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #texturedoverall {
+    width: 400px;
+    height: 250px;
+    padding-right: 10px;
+  }
+
+  #scifihallway {
+    width: 400px;
+  }
+
+  #reactor {
+    width: 400px;
+  }
+
+  #storageroom {
+    width: 400px;
+    padding-right: 10px;
+  }
+
+  #controlroom {
+    width: 400px;
+  }
+
+  #housereference {
+    width: 400px;
+  }
+
+  #housestoreyone {
+    width: 400px;
+    padding-right: 10px;
+  }
+
+  #housestoreytwo {
+    width: 400px;
+  }
+
+  #temple {
+    width: 400px;
+    height: 300px;
+    padding-right: 10px;
+  }
+
+  #harbor {
+    width: 250px;
+    height: 300px;
+  }
+
+  #triflags {
+    width: 400px;
+    height: 300px;
+  }
+
+  #card_poster {
+    width: 400px;
+  }
+
+  #card_gameboard {
+    width: 400px;
+  }
+
+  #cards {
+    width: 400px;
+  }
+
+  #shophouses {
+    height: 300px;
+    padding-right: 10px;
+  }
+
+  #shophouse_left {
+    height: 300px;
+    padding-right: 10px;
+  }
+  #shophouse_right {
+    height: 300px;
+  }
+
+  #cloudsone {
+    height: 300px;
+  }
+
+  #cloudstwo {
+    height: 300px;
+  }
+
+  #cloudsthree {
+    height: 300px;
+  }
+
+  #trashbinsone {
+    height: 300px;
+    
+  }
+
+  #trashbinstwo {
+    height: 300px;
+  }
+
+  #trashbinsthree {
+    height: 300px;
+  }
+
+  #roadone{
+    height: 300px;
+  }
+
+  #roadtwo {
+    height: 300px;
+    padding-left: 10px;
+  }
+
+  #roadthree {
+    height: 300px;
+    padding-left: 10px;
+  }
+
+  #carone{
+    height: 300px;
+  }
+
+  #cartwo {
+    height: 300px;
+  }
+
+  #carthree {
+    height: 300px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 1%;
+    margin-bottom: 60px;
+    height: 50px;
+  }
+
+  .footer_navbar {
+    display: flex;
+    background-color: #8e4162;
+    justify-content: center;
+    font-family: 'Arima Madurai', cursive;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+
+  .footer-nav {
+    color: #c7e8f3;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+  } 
+
+  .footer_navbar a:hover{
+    background-color: #c7e8f3;
+    color: #8e4162;
+  }
+
+  @media screen and (max-width: 576px) {
+    .navbar {
+      display: none;
+    }
+    .dropdown {
+      display: block;
+    }
+
+    #profile_photo {
+      margin-left: 50px;
+    }
+
+    .flex_container {
+      flex-direction: column;
+    }
+
+    .flex_content {
+      flex-direction: column;
+    }
+
+    .skillsflex_content {
+      flex-direction: column;
+    }
+  }
