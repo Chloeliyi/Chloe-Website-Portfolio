@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css"/>
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Chloe's Logo ">
+            </a>
+        </header>
+        <nav class="navbar">
+            <a class ="flex-nav" href="index.html">Home</a>
+            <a class ="flex-nav" href="portfolio.html">Portfolio</a>
+            <a class ="flex-nav" href="about.html">About</a>
+        </nav>
+        <nav class="dropdown">
+            <button class="dropdown_btn">Menu
+            </button>
+            <div class="dropdown_content">
+                <a href ="index.html">Home</a>
+                <a href ="portfolio.html">Portfolio</a>
+                <a href ="about.html">About</a>
+            </div>
+        </nav>
+        <h1 class="portfolioone_heading"><u>Mix & Match</u></h1>
+        <section class="portfolio_desc">
+            <p>Mix & Match is a click game made solely by me using Unity Engine. The ganme starts with a set of random numbers with icons hiding them being
+                generated, and the player has to click to turn over the icon and match the numbers in order to win the game. I also created my own icons using Adobe Illustrator.
+            </p>
+            <p>
+                I also created a firebase to store the player data, as well as the leaderboard using firebase authentication and the realtime database.The player
+                dataset consists of a randomly generated player id, name, password, email and playerStatus, while the leaderboard consists of the playerStatus, score and stage.
+            </p>
+            <h1> Game Play</h1>
+            <p>Players will first log in or create their own accounts, afterwards they will be brought to the game start menu where they can view their 
+                own profile, check the leaderboard or adjust the music. They may also log out if they wish. The game starts immediately after clicking the start button 
+                and players have 1 minute to complete as many matches as possible. In each stage, there is a total of four matches to be made. Players can choose to 
+                continue onto the next stage, restart the entire game or quit half-way. Afterwards, players can check the leaderboard to see if there’s been any updates.
+            </p>
+            <h1>Controls </h1>
+            <p>
+                Click the right mouse button to interact. 
+            </p>
+            <h1>Desired Settings</h1>
+            <p>
+                <b>Graphics Quality</b> : Performant/Balanced/High-fidelity. 
+                <br>
+                <b>Sound Volume</b>: Adjust the volume of in-game sounds and 
+                music.
+            </p>
+        </section>
+            <h1>Video
+                <section class = "portfolio_videos">
+                    <video width="700" height="620" controls>
+                        <source src="videos/DDA_Assg1_Chloe_Mix&Match.mp4" type="video/mp4">
+                      </video>
+                </section>
+            </h1>
+        </section>
+        <footer>
+            <nav class="footer_navbar">
+                <a class ="footer-nav" href="index.html">Home</a>
+                <a class ="footer-nav" href="portfolio.html">Portfolio</a>
+                <a class ="footer-nav" href="about.html">About</a>
+            </nav> 
+        </footer>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css"/>
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Chloe's Logo ">
+            </a>
+        </header>
+        <nav class="navbar">
+            <a class ="flex-nav" href="index.html">Home</a>
+            <a class ="flex-nav" href="portfolio.html">Portfolio</a>
+            <a class ="flex-nav" href="about.html">About</a>
+        </nav>
+        <nav class="dropdown">
+            <button class="dropdown_btn">Menu
+            </button>
+            <div class="dropdown_content">
+                <a href ="index.html">Home</a>
+                <a href ="portfolio.html">Portfolio</a>
+                <a href ="about.html">About</a>
+            </div>
+        </nav>
+        <h1 class="portfolioone_heading"><u>Mix&Match </u></h1>
+        <section class="portfolio_desc">
+            <p>We were required to make our own island, with a water shader and waterfall, a giant tree and flags. I was inspired by Tibetan architecture, and created my own temple based on the design,
+                along with a small harbor. I then created my own flag design and made a giant mystic tree as a vocal point with flag arounds it and some statures. I then populated the island with trees and a
+                fog.
+            </p>
+            <p>I created the temple and harbor using Maya and then textured them in Adobe Substance Painter
+                <section class="portfolio_photos">
+                    <img id="temple" src="images/temple.png" alt="Temple">
+                    <img id="harbor" src="images/harbor.png" alt="Harbor">
+                </section>
+            </p>
+            <p>For the flag, I wanted it to be series of flags tied to poles that could be placed around the tree. So I created the pole and flags in Maya and then brought it
+                over to Unity where I textured it.
+                <section class="portfolio_photos">
+                    <img id="triflags" src="images/triflags.png" alt="Tri-Flags">
+                </section>
+            </p>
+            <h1>
+                Video
+                <section class = "portfolio_videos">
+                    <video width="700" height="620" controls>
+                        <source src="videos/Island_walkthrough.mp4" type="video/mp4">
+                      </video>
+                </section>
+            </h1>
+
+            <button class = "backtoportfolio"><a href="portfolio.html">Portfolio</a></button>
+        </section>
+        <footer>
+            <nav class="footer_navbar">
+                <a class ="footer-nav" href="index.html">Home</a>
+                <a class ="footer-nav" href="portfolio.html">Portfolio</a>
+                <a class ="footer-nav" href="about.html">About</a>
+            </nav> 
+        </footer>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    </body>
+</html>
