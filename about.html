@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css"/>
+        <title>About</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Chloe's Logo ">
+            </a>
+        </header>
+        <nav class="navbar">
+            <a class ="flex-nav" href="index.html">Home</a>
+            <a class ="flex-nav" href="portfolio.html">Portfolio</a>
+            <a class ="flex-nav" href="about.html">About</a>
+        </nav>
+        <nav class="dropdown">
+            <button class="dropdown_btn">Menu
+            </button>
+            <div class="dropdown_content">
+                <a href ="index.html">Home</a>
+                <a href ="portfolio.html">Portfolio</a>
+                <a href ="about.html">About</a>
+            </div>
+        </nav> 
+        <section class="flex_container">
+            <a id ="profile_photo" href="images/resume_photo.jpg" data-lightbox="gallery" data-title="Chloe Chan"><img id="profile_photo" src="images/resume_photo.jpg" alt="Chloe Chan" /></a>
+            <section class="aboutme_content">
+                <h1> About Me </h1>
+                <article class="description">
+                    <p>I am currently a third year Ngee Ann Polytechnic student studying the ICT coure of immersive media. My eventual goal is to work in the game development industry as a 3D Programmer.
+                        I first gained interest in this field through an through a love of visual novel style games and wanted to learn more about how 
+                        these types of games were made and after graduating from secondary school, I got into the course of Application Development at ITE West. I learned
+                        how to create websites and code web applications for computer and phone usage and while I did find it interesting, it was not what I wanted to study and thus after doing
+                        more research, I learned about the Immersive Media course available at Ngee Ann Polytechnic and decided to apply here. 
+                    </p>
+                </article>
+            </section>      
+        </section>
+
+        <section class="flex_container">
+            <section class="contact_content">
+                <h1 class="contact_details"><u>Contact Details</u></h1>
+                <article class="howtocontact">
+                    <h1>Email: <a href="">chloeliyi2000@gmail.com</a></h1>
+                    <h1>LinkedIn: <button class="linkedin_button"><a href="hwww.linkedin.com/in/chloe-chan-30a044143">Go There</a></button></h1>
+                    <h1>GitHub: <button class="github_button"><a href="https://github.com/Chloeliyi">Go There</a></button></h1>
+                    <h1>Number : 98487363</h1>
+                    <h1><label>Please Leave A Message For Me:</label></h1>
+                    <textarea id="msg_box" rows="4" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </article>
+            </section>      
+        </section>
+        <footer>
+            <nav class="footer_navbar">
+                <a class ="footer-nav" href="index.html">Home</a>
+                <a class ="footer-nav" href="portfolio.html">Portfolio</a>
+                <a class ="footer-nav" href="about.html">About</a>
+            </nav> 
+        </footer>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    </body>
+</html>
